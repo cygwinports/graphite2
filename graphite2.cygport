@@ -1,7 +1,7 @@
 inherit cmake
 
 NAME="graphite2"
-VERSION=1.1.3
+VERSION=1.2.0
 RELEASE=1
 CATEGORY="X11"
 SUMMARY="Graphite smart font parser"
@@ -13,7 +13,7 @@ HOMEPAGE="http://graphite.sil.org/"
 SRC_URI="mirror://sourceforge/silgraphite/${P}.tgz"
 PATCH_URI="01-cygwin.patch 02-as-needed.patch"
 
-PKG_NAMES="libgraphite2_2 libgraphite2-devel"
-libgraphite2_2_CONTENTS="usr/bin/cyggraphite2-2.dll usr/share/doc/"
-libgraphite2_devel_CONTENTS="usr/include/ usr/lib/ usr/share/${PN}/"
+PKG_NAMES="libgraphite2_3 libgraphite2-devel"
+libgraphite2_3_CONTENTS="usr/bin/cyggraphite2-3.dll"
+libgraphite2_devel_CONTENTS="usr/include/ usr/lib/ usr/share/"
 PKG_IGNORE="usr/bin/gr2fonttest.exe"
